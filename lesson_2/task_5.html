@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">		
+		<script type="text/javascript">
+			/* 5 Реализовать четыре основные арифметические операции в виде функций с двумя параметрами. Обязательно использовать оператор return. */
+
+			function calc(left_num, right_num){
+				var artisanal_sum = left_num + right_num;
+				var artisanal_diff = left_num - right_num;
+				var artisanal_mult = left_num * right_num;
+				var artisanal_div = left_num // right_num;	
+				return 'a + b = ' + artisanal_sum + '\na - b = ' + artisanal_diff + '\na * b = ' + artisanal_mult + '\na // b = ' + artisanal_div + '\n'; 
+			}
+			var left_n = Number(prompt('Введите левое число: '));
+			var right_n = Number(prompt('Введите правое число: '));
+			result = calc(left_n, right_n);
+			alert('Результаты четырёх операций:\n' + result);
+		</script>
+	</head>
+	<body></body>
+	<body></body>
+</html>
